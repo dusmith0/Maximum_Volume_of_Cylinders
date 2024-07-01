@@ -7,7 +7,7 @@ This script is a product of a question posed during a conference. We were tasked
 *Argument 1*
 First let us consider the Volume of a Cylinder:
 $$' 
-/V = pi*/r^2*/h
+V = pi*r^2*h
 '$$
 First we can see that radius is squared and height is not. Therefor, it is easy to see that radius must have a larger effect, and the clear solution is that the cylinder with the largest radius has the largest volume. 
 
