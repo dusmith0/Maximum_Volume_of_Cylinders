@@ -20,13 +20,27 @@ Another way to see that radius is most important is to consider the fixed perimi
 $` P = r \times h `$
 If we fix this we can adjust the formula as seen below:
 
-$` V = \pi \tiems r \times (r \times h) `$
-and:
+$` V = \pi \times r \times (r \times h) `$
+
+and
+
 $` V = \pi \times r \times P `$
-Then let $`r_1`$ be greater then $`r_2`$, and  assuming P is fixed, then the ratio of the volumes is:
-$` V_1/V_2 = (\pi \tiems r_1 \times P)/(\pi \times r_2 \times P) `$
+
+Then let 
+
+$`r_1`$ be greater then $`r_2`$, and  assuming P is fixed, then the ratio of the volumes is:
+
+$` V_1/V_2 = (\pi \times r_1 \times P)/(\pi \times r_2 \times P) `$
+
 $` \frac{V_1}{V_2} = \frac{r_1}{r_2} `$
-Thus the ratio of the Volume of each cylinder is exactly the ratio of the radii. And if $`r_1 > r_2`$ then $`V_1 > V_2`$. 
+
+Thus the ratio of the Volume of each cylinder is exactly the ratio of the radii. And if 
+
+$`r_1 > r_2`$ 
+
+then 
+
+$`V_1 > V_2`$. 
 
 *Argument 3*
 As the above arguments were not accepted, I created a simulation that could take a fixed perimeter, generate a series of possible radius and height integer pairs to maintain the fixed perimeter, and calculate the volume of each pair. 
