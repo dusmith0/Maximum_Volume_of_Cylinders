@@ -22,7 +22,7 @@ $$'/
 V = pi*r^2*h
 /'$$
 
-$V = pi*r^2*h$
+$`\sqrt{3}`$
 
 First we can see that radius is squared and height is not. Therefor, it is easy to see that radius must have a larger effect, and the clear solution is that the cylinder with the largest radius has the largest volume. 
 
