@@ -6,9 +6,7 @@ This script is a product of a question posed during a conference. We were tasked
 ### Rational
 *Argument 1*
 First let us consider the Volume of a Cylinder:
-$$`
-\V = pi /times r^{2} /times h
-`$$
+$$`V = \pi \times r^{2} \times h`$$
 
 $`\sqrt{3}`$
 
