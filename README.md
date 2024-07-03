@@ -6,9 +6,8 @@ This script is a product of a question posed during a conference. We were tasked
 ### Rational
 *Argument 1*
 First let us consider the Volume of a Cylinder:
-$`V = \pi \times r^{2} \times h`$
 
-$`\sqrt{3}`$
+$`V = \pi \times r^{2} \times h`$
 
 First we can see that radius is squared and height is not. Therefor, it is easy to see that radius must have a larger effect, and the clear solution is that the cylinder with the largest radius has the largest volume. 
 
@@ -17,15 +16,17 @@ However, the instuctors and many other individuals claimed that this was not eno
 
 *Argument 2*
 Another way to see that radius is most important is to consider the fixed perimiter in the formula. Here the fixed formula is 
-$$ P = r * h $$
+
+$` P = r \times h `$
 If we fix this we can adjust the formula as seen below:
-$$ V = pi * r * (r * h) $$
+
+$` V = \pi \tiems r \times (r \times h) `$
 and:
-$$ V = pi * r * P$$
-Then let $r_1$ be greater then $r_2$, and  assuming P is fixed, then the ratio of the volumes is:
-$$ V_1/V_2 = (pi * r_1 * P)/(pi * r_2 * P) $$
-$$ V_1/V_2 = r_1/r_2 $$
-Thus the ratio of the Volume of each cylinder is exactly the ratio of the radii. And if $r_1 > r_2$ then $V_1 > V_2$. 
+$` V = \pi \times r \times P `$
+Then let $`r_1`$ be greater then $`r_2`$, and  assuming P is fixed, then the ratio of the volumes is:
+$` V_1/V_2 = (\pi \tiems r_1 \times P)/(\pi \times r_2 \times P) `$
+$` \frac{V_1}{V_2} = \frac{r_1}{r_2} `$
+Thus the ratio of the Volume of each cylinder is exactly the ratio of the radii. And if $`r_1 > r_2`$ then $`V_1 > V_2`$. 
 
 *Argument 3*
 As the above arguments were not accepted, I created a simulation that could take a fixed perimeter, generate a series of possible radius and height integer pairs to maintain the fixed perimeter, and calculate the volume of each pair. 
